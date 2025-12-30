@@ -23,5 +23,7 @@ public class DataTypesDemo {
         // Petite logique simple
         int ageDans5Aans = age + 5;
         System.out.println("Âge dans 5 ans : " + ageDans5Aans + " ans");
+
+        // force git refresh
     }
 }
