@@ -12,7 +12,6 @@ public class ScopeTest {
 
     static void afficher() {
         String nom = "Jean";
-        System.out.println(message);
-        System.out.println(message + nom);
+        System.out.println(message + " " + nom);
     }
 }
