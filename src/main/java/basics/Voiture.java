@@ -14,4 +14,3 @@ public class Voiture {
         System.out.println("La voiture s'arrête!");
     }
 }
-}
