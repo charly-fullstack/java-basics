@@ -13,7 +13,7 @@ public class TableDeMultiplication {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Entrez un nombre : ");
-        int nombre = scanner.nextInt();
+        int nombre = scanner.nextInt(); 
 //        scanner.close(); // facultatif ici, car System.in
         for (int i = 1; i <= 10; i++ ) {
             System.out.println(nombre + " * " + i + " = " + (nombre * i));

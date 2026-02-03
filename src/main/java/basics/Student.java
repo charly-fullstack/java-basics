@@ -19,7 +19,7 @@ public class Student {
 
     }
 
-    void afficherInfos() {
+    public void afficherInfos() {
         System.out.println("Mon nom est : " + name.toUpperCase() + ".");
         System.out.println("Mon âge est : " + age + " ans.");
         System.out.println("Ma taille est : " + taille + " m");

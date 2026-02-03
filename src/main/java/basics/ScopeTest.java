@@ -6,7 +6,7 @@ public class ScopeTest {
 
     public static void main(String[] args) {
         afficher();
-        System.out.println(message);
+        System.out.println(message); 
 
     }
 

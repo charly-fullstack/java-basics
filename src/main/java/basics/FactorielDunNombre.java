@@ -15,10 +15,10 @@ public class FactorielDunNombre {
         int nombre = scanner.nextInt();
         int resultat = 1;
         for (int i = 1; i <= nombre; i++) {
-            resultat = resultat * i;
+            resultat *= i;
+            System.out.println("Étape " + i + ": " + i + " * " + resultat);
         }
-
-        System.out.println(nombre + "! = " + resultat);
+        System.out.println("Donc " + nombre + "! = " + resultat);
         scanner.close();
     }
 

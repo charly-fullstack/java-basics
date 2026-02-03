@@ -6,7 +6,6 @@ public class NombresPairsAvecWhile {
 
         NombresPairsAvecWhile n2 = new NombresPairsAvecWhile();
         n2.afficherNombresPairs();
-
     }
 
     void afficherNombresPairs() {

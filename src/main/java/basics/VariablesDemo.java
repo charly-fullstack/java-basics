@@ -28,11 +28,9 @@ public class VariablesDemo {
         //Quelques opérateurs sur les variables
         int somme = age + 10;
         double taillleDouble = taille * 2;
-
         System.out.println("\nOpérations :");
         System.out.println("ÂGE + 10 = " + somme);
         System.out.println("Taille x 2 = " + taillleDouble);
-
 
     }
 }
