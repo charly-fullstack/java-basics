@@ -1,7 +1,5 @@
 package basics;
 
-import java.sql.Statement;
-
 public class PorteeDesVariables {
     protected static String nomUniversite = "Université Technique de Cluj-Napoca";
     static String name = "charly";

@@ -2,34 +2,45 @@ package basics;
 
 /** En Java, une classe est comme un modèle ou un plan pour créer des bojets
  * @Charly Développeur Full-Stack Java*/
-// C'est quoi des getters et des setters en Java pro?
+// C'est quoi des getters et des setters en Java pro? et c'est quoi un constructeur en Java?
 
 public class MainPrincipal {
 
      public static void main(String[] args) {
-         Voiture maVoiture = new Voiture(); // Création d'un objet "maVoiture"
-         maVoiture.couleur = "Noire";
-         maVoiture.marque = "Toyota";
-         maVoiture.vitesseMax = 120;
-         maVoiture.matricule = "CJ234RO";
+
+         // Création d'un objet "maVoiture"
+         Voiture maVoiture = new Voiture("Toyota", "Noire", "CJ234RO", 120);
          maVoiture.rouler();
          maVoiture.arreter();
 
-         Personne personne = new Personne();
-         personne.prenom = "John";
-         personne.nom = "Daniel";
-         personne.age = 21;
-         personne.dateDeNaissance = 2005;
-         personne.marier();
-         personne.nomComplet();
+         // Création d'un objet "maPersonne"
+         Personne maPersonne = new Personne("John", "Daniel", 21, 2005);
+         maPersonne.seMarier();
+         maPersonne.afficherNomComplet();
 
-         Joueur joueur = new Joueur();
-         joueur.nom = "Charly";
-         joueur.couleur = "Noire";
-         joueur.age = 23;
-         joueur.vitesse = 20;
-         joueur.dorsale = 10;
+         // Création d'un objet "Joueur"
+         Joueur joueur = new Joueur("Charly", "Noire", 25, 10, 20, 120);
          joueur.jouer();
          joueur.courir();
+
+         // Création d'un objet "Eleve"
+         Eleve eleve = new Eleve("Daniel","Charles", "UI34UN", 34);
+         Eleve eleve1 = new Eleve("Gabriel", "Charly", "UI26UTCN", 25);
+
+         eleve1.afficherHello();
+         eleve1.afficherNomComlet();
+         eleve1.majeurMineur();
+         eleve1.chanter();
+         System.out.println("=========================");
+         eleve.afficherHello();
+         eleve.afficherNomComlet();
+         eleve.chanter();
+         eleve.majeurMineur();
+
+         System.out.println("=============================");
+
+         // Création d'un objet "Utilisateur"
+         Utilisateur utilisateur = new Utilisateur("Charly", "modeDePasse!123", "a@mail.com", "maPhoto");
+         utilisateur.afficherNomUtilisateur();
      }
 }
