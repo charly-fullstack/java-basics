@@ -19,6 +19,7 @@ public class PorteeDesVariables {
        System.out.println(name);
        System.out.println(message);
        System.out.println(nomUniversite);
+       Exemple exemple = new Exemple("Charly");
     }
 
     public static void fonction3(int a, int b) {
@@ -39,19 +40,18 @@ public class PorteeDesVariables {
 }
 
 class Exemple {
-        static String nom = "charly";
+        static String nom;
 
         void afficher() {
             System.out.println("Hello, monsieur " + nom + ".");
         }
 
-         public static void main(String[] args){
-            Exemple e = new Exemple();
-            e.afficher();
-         }
+        public Exemple(String nom) {
+            this.nom = nom;
+        }
 
-         private static  String text = "hello";
-         static void printText(){System.out.println(text);
+        private static  String text = "hello";
+        static void printText(){System.out.println(text);
              }
         }
 class Etudiant {
