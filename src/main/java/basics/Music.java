@@ -3,6 +3,7 @@ package basics;
 public class Music {
 
     public static void main(String[] args) {
+        // Création d'un objet music
         Music music = new Music("Chris Brown", "With you", "Amour", "Chris Brown music");
         System.out.println(music.nomArtiste + ".");
         music.jouer();
