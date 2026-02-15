@@ -16,6 +16,9 @@ public class HeritageEnJava {
         chien.chasser();
         chien.manger();
         animal.courir();
+        animal.chasser();
+        animal.manger();
+        animal.manger("viande");
         chien.aboyer();
         chien.afficherNomAnimal();
     }
